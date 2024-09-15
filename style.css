@@ -1,0 +1,102 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+}
+
+#logo {
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    font-family: "Fredoka One", Helvetica;
+    text-shadow: 
+    1px 1px 0px black,
+    -1px 1px 0px black,
+    1px -1px 0px black,
+    -1px -1px 0px black;
+    
+}
+
+
+
+body > header {
+    background-color: orange;
+    display: flex;
+    height: 16vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+ul {
+    margin: 0px;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 10px;
+    margin: auto;
+}
+
+body > footer {
+    background-color: rgb(255, 166, 56);
+    display: flex;
+}
+
+body > main article { /* in main and every article*/
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+p {
+    font-size: 1.5vw; /*using vw and vh (Viewport Width, Viewport Height) makes text take up x% of the viewport (device screen) size. Here I put 1.5 as it is a nice readable text size on the website */
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: white;
+}
